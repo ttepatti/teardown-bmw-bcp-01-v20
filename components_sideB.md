@@ -1,0 +1,196 @@
+# Overview
+
+- **Source Vehicle:** 2023 BMW X7 M60i xDrive (G07 Chassis)
+- **Source Module:** BMW / Visteon BCP-01 V20 "Basis Central Platform"
+- **PCB:** "Side B" (back side) of BCP PCB
+
+# PCB Markings - Side B
+
+Side B of this PCB contains the following silkscreen markings:
+
+```
+FIRSTREFLOW ->
+Visteon BCP21-AP D0.1.4
+PWB26649
+VPNKAF-14A608-HA
+```
+
+# Components
+
+The below components have been assigned arbitrary identifiers (U27 through U64) because the PCB lacks any identifying silkscreen marks. For information on which number is assigned to each IC, check out the "numbered" PCB photos I uploaded to this repository.
+
+Side B:
+- U27
+	- Texas Instruments L53625N - DC-DC Converter
+	- TI 29J
+	- PL3Y
+	- https://www.alldatasheet.net/datasheet-pdf/view-marking/1351129/TI/LM53625NQRNLRQ1.html
+- U28
+	- Texas Instruments LM5150 - 1.5V to 42V VIN Low IQ Boost Controller
+	- Q
+	- TI 28
+	- PLM4
+	- https://www.ti.com/product/LM5150-Q1
+- U29
+	- Texas Instruments 46AV - Dual CAN FD Transceiver
+	- TI248
+	- AK8X
+	- https://www.ti.com/lit/ds/symlink/tcan1046av-q1.pdf?ts=1787531172772&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN1046AV-Q1
+- U30
+	- Texas Instruments 46AV - Dual CAN FD Transceiver
+	- TI248
+	- AK8X
+	- https://www.ti.com/lit/ds/symlink/tcan1046av-q1.pdf?ts=1787531172772&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN1046AV-Q1
+- U31
+	- Texas Instruments 46AV - Dual CAN FD Transceiver
+	- TI248
+	- AK8X
+	- https://www.ti.com/lit/ds/symlink/tcan1046av-q1.pdf?ts=1787531172772&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN1046AV-Q1
+- U32
+	- Texas Instruments 46AV - Dual CAN FD Transceiver
+	- TI248
+	- AK8X
+	- https://www.ti.com/lit/ds/symlink/tcan1046av-q1.pdf?ts=1787531172772&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN1046AV-Q1
+- U33
+	- Texas Instruments M74202Q - Integrated Ideal Diode, Overvoltage and Overcurrent Protection
+	- 28T G4
+	- AVZX
+	- https://www.ti.com/lit/ds/symlink/lm74202-q1.pdf?ts=1787510120823
+- U34
+	- Texas Instruments 46AV - Dual CAN FD Transceiver
+	- TI248
+	- AK8X
+	- https://www.ti.com/lit/ds/symlink/tcan1046av-q1.pdf?ts=1787531172772&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN1046AV-Q1
+- U35
+	- ST 95M02WT - 2 Mbit EEPROM
+	- K238K
+	- https://www.st.com/content/ccc/resource/technical/document/datasheet/2a/c1/1a/71/e0/d9/4c/df/CD00290531.pdf/files/CD00290531.pdf/jcr:content/translations/en.CD00290531.pdf
+- U36
+	- TL1024A - Automotive Quad LIN Transceiver
+	- TI 268
+	- AGKD G4
+	- https://www.ti.com/product/TLIN1024A-Q1
+- U37
+	- TL1024A - Automotive Quad LIN Transceiver
+	- TI 268
+	- AGKD G4
+	- https://www.ti.com/product/TLIN1024A-Q1
+- U38
+	- 130AW - Texas Instruments TMUX13xx Multiplexer
+	- TI 298
+	- AD84
+	- https://www.ti.com/lit/ds/symlink/tmux1308.pdf
+- U39
+	- 1308Q - Texas Instruments TMUX13xx Multiplexer
+	- TI 298
+	- AD84
+	- https://www.ti.com/lit/ds/symlink/tmux1308.pdf
+- U40
+	- TL1024A - Automotive Quad LIN Transceiver
+	- TI 268
+	- AGKD G4
+	- https://www.ti.com/product/TLIN1024A-Q1
+- U41
+	- VD7140A - ST Double Channel High-Side Driver
+	- G Z239
+	- https://www.st.com/en/automotive-analog-and-power/vnd7140aj.html
+- U42
+	- 71033-6ESA - Smart High-Side Power Switch
+	- G2240 22C
+	- https://www.infineon.com/assets/row/public/documents/10/49/infineon-bts71033-6esa-datasheet-en.pdf
+- U43
+	- 1308Q - Texas Instruments TMUX13xx Multiplexer
+	- TI 298
+	- AD84
+	- https://www.ti.com/lit/ds/symlink/tmux1308.pdf
+- U44
+	- 72220-4ESE - Infineon Serial Interface Power Controller
+	- G2241 22E
+	- https://www.infineon.com/assets/row/public/documents/10/49/infineon-bts72220-4ese-datasheet-en.pdf?fileId=5546d462636cc8fb0163feab221408dc
+- U45
+	- 72220-4ESE - Infineon Serial Interface Power Controller
+	- G2241 22E
+	- https://www.infineon.com/assets/row/public/documents/10/49/infineon-bts72220-4ese-datasheet-en.pdf?fileId=5546d462636cc8fb0163feab221408dc
+- U46
+	- VS7050A - ST High-Side Driver with MultiSense
+	- GK051
+	- https://www.st.com/en/automotive-analog-and-power/vn7050as.html
+- U47
+	- ST VS7050A - High Side Driver
+	- GZ051
+	- https://www.st.com/en/automotive-analog-and-power/vn7050as.html
+- U48
+	- ST VS7016L - Single-Channel High-Side Driver
+	- 6K242
+	- https://www.st.com/en/automotive-analog-and-power/vn7016aj.html
+- U49
+	- ST VS7010A - High-Side Driver
+	- Z G 131
+	- https://www.alldatasheet.com/datasheet-pdf/view/881488/STMICROELECTRONICS/VN7010AJ.html
+- U50
+	- Texas Instruments High-Side Protection Controller
+	- 287K
+	- SZAB
+	- https://www.ti.com/lit/ds/symlink/lm5060-q1.pdf?ts=1789069568061
+- U51
+	- 5N041R9 - Infineon OptiMOS-5 Power Transistor
+	- GBA243
+	-  https://www.infineon.com/assets/row/public/documents/10/49/infineon-ipc100n04s5-1r9-ds-en.pdf?fileId=5546d4625696ed760156d57e72dd6073
+- U52
+	- ST L5030J - OMNIFET III Low-Side Driver
+	- Z G 237
+	- https://www.st.com/en/automotive-analog-and-power/vnl5030j-e.html
+- U53
+	- Infineon 5N04L74 - 40V Automotive MOSFET
+	- CAR247
+	- https://www.infineon.com/part/IPZ40N04S5L-7R4
+- U54
+	- ST VS7016L - Single-Channel High-Side Driver
+	- 6K242
+	- https://www.st.com/en/automotive-analog-and-power/vn7016aj.html
+- U55
+	- ST VD7020A - Double Channel High-Side Driver
+	- Z G 236
+	- https://www.st.com/en/automotive-analog-and-power/vnd7020aj.html
+- U56
+	- Infineon OptiMOS-5 Power Transistor (40V 40A)
+	- 5N04L74
+	- GAB247
+	- https://www.infineon.com/assets/row/public/documents/10/49/infineon-ipz40n04s5l-7r4-ds-en.pdf?fileId=5546d4624cb7f111014d6601321448a0
+- U57
+	- Infineon Smart High-Side Power Switch
+	- 7002-1P
+	- GE9232
+	- https://www.infineon.com/part/BTS7002-1EPP
+- U58
+	- 5N041R9 - Infineon OptiMOS-5 Power Transistor
+	- GBA243
+	-  https://www.infineon.com/assets/row/public/documents/10/49/infineon-ipc100n04s5-1r9-ds-en.pdf?fileId=5546d4625696ed760156d57e72dd6073
+- U59
+	- ST VS7010A - High-Side Driver
+	- Z G 131
+	- https://www.alldatasheet.com/datasheet-pdf/view/881488/STMICROELECTRONICS/VN7010AJ.html
+- U60
+	- ST VS7010A - High-Side Driver
+	- Z G 131
+	- https://www.alldatasheet.com/datasheet-pdf/view/881488/STMICROELECTRONICS/VN7010AJ.html
+- U61
+	- Infineon SPI Power Controller
+	- 71040-4ESA
+	- 62229 22L
+	- https://www.infineon.com/part/BTS71040-4ESA
+- U62
+	- Infineon SPI Power Controller
+	- 71033-6ESA
+	- G2240 22C
+	- https://www.infineon.com/part/BTS71033-6ESA
+- U63
+	- Infineon SPI Power Controller
+	- 71033-6ESA
+	- G2240 22C
+	- https://www.infineon.com/part/BTS71033-6ESA
+- U64
+	- NXP TJA1085G - FlexRay Active Star Coupler - 4 Branch
+	- C2K854
+	- TnD22440
+	- https://www.nxp.com/products/interfaces/flexray-transceivers/flexray-active-star-coupler-4-branch:TJA1085
